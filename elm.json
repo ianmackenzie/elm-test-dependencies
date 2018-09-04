@@ -1,0 +1,18 @@
+{
+    "type": "package",
+    "name": "ianmackenzie/elm-test-dependencies",
+    "summary": "Tricking elm-test into specifying invalid dependencies",
+    "license": "MPL-2.0",
+    "version": "1.0.0",
+    "exposed-modules": [
+        "Module.elm"
+    ],
+    "elm-version": "0.19.0 <= v < 0.20.0",
+    "dependencies": {
+        "elm/core": "1.0.0 <= v < 2.0.0",
+        "ianmackenzie/elm-float-extra": "1.0.0 <= v < 2.0.0"
+    },
+    "test-dependencies": {
+        "elm-explorations/test": "1.0.0 <= v < 2.0.0"
+    }
+}
